@@ -5,8 +5,7 @@ using namespace std;
 using namespace ariel;
 
 Ninja::Ninja(string name, Point poi)//, int hit, , int speed)
-: Character(name, poi){
-    _speed =0;
+: Character(name, poi), _speed(0){
 }
 
 void Ninja::move(Character *chara){

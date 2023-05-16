@@ -7,8 +7,7 @@ using namespace std;
 using namespace ariel;
 
 Cowboy::Cowboy(string name, Point poi)//, int hit, , int bullets)
-: Character(name, poi) {
-    _num_of_bullets = 0;
+: Character(name, poi), _num_of_bullets(0) {
 }
 
 void Cowboy::shoot(Character *chara){

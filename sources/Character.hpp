@@ -4,6 +4,8 @@
 
 using namespace std;
 
+
+//can't creat an object of Character type
 namespace ariel
 {
     class Character
